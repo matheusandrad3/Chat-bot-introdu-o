@@ -2,15 +2,18 @@ function getBotResponse(input) {
     //rock paper scissors
     if (input == "sim") {
       return "que ótimo <br> Qual o seu nome?";
-    } else if (input == "sim e você?") {
+    }else if (input == "Sim") {
+        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
+    }
+     else if (input == "Sim e você?") {
         return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
     } else if (input == "sim e voce?") {
         return "estou bem, também! Obrigado por perguntar <br> Qual o seu nome?";
-    }else if (input == "sim e voce") {
+    }else if (input == "Sim e voce") {
         return "estou bem, também! Obrigado por perguntar <br> Qual o seu nome?";
-    }else if (input == "sim e vc") {
+    }else if (input == "Sim e vc") {
         return "estou bem, também! Obrigado por perguntar <br> Qual o seu nome?";
-    }else if (input == "sim e vc?") {
+    }else if (input == "Sim e vc?") {
         return "estou bem, também! Obrigado por perguntar <br> Qual o seu nome?";
     }
 
@@ -35,16 +38,16 @@ function getBotResponse(input) {
     else if (input == "Escalar") {
         return "Nice, continue treinando <br> vai arrumar o que hoje";
     }
-    else if (input == "jogar poker") {
+    else if (input == "Jogar poker") {
         return "AHHHH... vocé é o the best player <br> vai arrumar o que hoje?";
     }
-    else if (input == "jogar") {
+    else if (input == "Jogar") {
         return "AAAAAU hoje tem FORRAAAA <br> GL MÁXIMA";
-    }else if (input == "trabalhar") {
+    }else if (input == "Trabalhar") {
         return "AAAAAU hoje tem FORRAAAA <br> GL MÁXIMA";
-    }else if (input == "estudar") {
+    }else if (input == "Estudar") {
         return "Pra cima deles Jotinha";
-    }else if (input == "nada") {
+    }else if (input == "Nada") {
         return "Se parar da dengue, pow!!! <br> Para de morcegar";
     }
 
@@ -55,25 +58,25 @@ function getBotResponse(input) {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
     } else if (input == "brenda e o seu?") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
-    }else if (input == "brenda e o seu?") {
+    }else if (input == "Brenda e o seu") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
     }else if (input == "Brenda") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
     }else if (input == "brenda") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
     }
-    else if (input == "tita") {
+    else if (input == "Tita") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
-    }else if (input == "bre") {
+    }else if (input == "Bre") {
         return "Hmmmm... a princesa do teteu <br> ele te ama <br> O que vc esta fazendo?";
     }
-    else if (input == "trabalhando") {
+    else if (input == "Trabalhando") {
         return "Nice Work, gatita";
     }
-    else if (input == "atoa") {
+    else if (input == "Atoa") {
         return "Se parar da dengue, pow!!! <br> Para de morcegar";
     }
-    else if (input == "descansando") {
+    else if (input == "Descansando") {
         return "Se parar da dengue, pow!!! <br> Para de morcegar";
     }
     else {
