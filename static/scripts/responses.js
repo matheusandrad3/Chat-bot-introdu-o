@@ -4,6 +4,14 @@ function getBotResponse(input) {
       return "que ótimo <br> Qual o seu nome?";
     }else if (input == "Sim") {
         return "que ótimo <br> Qual o seu nome?";
+    }else if (input == "tudo") {
+        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
+    }else if (input == "Tudo") {
+        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
+    }else if (input == "Tudo bem") {
+        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
+    }else if (input == "tudo bem") {
+        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
     }
      else if (input == "Sim e você?") {
         return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
@@ -17,6 +25,30 @@ function getBotResponse(input) {
         return "estou bem, também! Obrigado por perguntar <br> Qual o seu nome?";
     }
 
+
+     if (input == "alessandra") {
+        return "Hmm... Ei Alê! <br> Fiquei sabendo que voce é muito estudiosa... <br> Verdade ou Mentira?";
+    } else if (input == "Alessandra") {
+        return "Hmm... Ei Alê! <br> Fiquei sabendo que voce é muito estudiosa... <br> Verdade ou Mentira?";
+    } else if (input == "Alessandra") {
+        return "Hmm... Ei Alê! <br> Fiquei sabendo que voce é muito estudiosa... <br> Verdade ou Mentira?";
+    }else if (input == "Verdade") {
+        return "Estou na torcida por você... <br> Não desista dos seus sonhos <br> Keep Going";
+    }else if (input == "verdade") {
+        return "Estou na torcida por você... <br> Não desista dos seus sonhos <br> Keep Going";
+    }else if (input == "Mentira") {
+        return "Hmm... <br> O meu criador disse que você é sim! <br> Ele acredita em você!";
+    }else if (input == "mentira") {
+        return "Hmm... <br> O meu criador disse que você é sim! <br> Ele acredita em você!";
+    }else if (input == "Obrigado") {
+        return "De nada, amo você!";
+    }else if (input == "Obrigada") {
+        return "De nada, amo você!";
+    }else if (input == "obrigado") {
+        return "De nada, amo você!";
+    }else if (input == "obrigada") {
+        return "De nada, amo você!";
+    }
 
     if (input == "Joao") {
         return "The famous Jhons <br> Você gosta mais de... <br> Escalar ou jogar Poker?";
@@ -40,6 +72,8 @@ function getBotResponse(input) {
     }
     else if (input == "Jogar poker") {
         return "AHHHH... vocé é o the best player <br> vai arrumar o que hoje?";
+    }else if (input == "jogar") {
+        return "AAAAAU hoje tem FORRAAAA <br> GL MÁXIMA";
     }
     else if (input == "Jogar") {
         return "AAAAAU hoje tem FORRAAAA <br> GL MÁXIMA";
