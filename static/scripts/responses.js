@@ -3,7 +3,7 @@ function getBotResponse(input) {
     if (input == "sim") {
       return "que ótimo <br> Qual o seu nome?";
     }else if (input == "Sim") {
-        return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
+        return "que ótimo <br> Qual o seu nome?";
     }
      else if (input == "Sim e você?") {
         return "estou bem, também! Obrigado por perguntar =) <br> Qual o seu nome?";
